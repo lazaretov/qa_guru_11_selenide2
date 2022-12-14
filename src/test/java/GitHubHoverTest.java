@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class GitHubHoverTest {
+
     @Test
     void shouldOpenEnterprisePage() {
         open("https://github.com/");
